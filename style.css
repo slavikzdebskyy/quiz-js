@@ -1,0 +1,41 @@
+.container  {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+}
+
+.question-container {
+  min-width: 800px;
+  min-height: 300px;
+  background-color: #c1c1c1c1;
+  color: antiquewhite;
+  padding: 35px;
+}
+
+.radios {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  font-size: 22px;
+}
+
+label {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+h2 {  
+  font-size: 30px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 25px;
+}
