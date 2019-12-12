@@ -4,15 +4,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
+  font-family: monospace;
 }
 
 .question-container {
   min-width: 800px;
   min-height: 300px;
-  background-color: #c1c1c1c1;
+  background-color: #000000;
   color: antiquewhite;
   padding: 35px;
+  border-radius: 10px;
+}
+
+#question {
+  color: aqua;
+}
+
+h2 {
+  color: seagreen;
 }
 
 .radios {
@@ -20,6 +29,7 @@
   flex-direction: column;
   line-height: 2;
   font-size: 22px;
+  color: crimson;
 }
 
 label {
